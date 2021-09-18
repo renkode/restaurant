@@ -1,0 +1,7 @@
+body {
+    background-color: #0c0c0c;
+}
+
+hr.dotted {
+    border-top: 3px dotted #bbb;
+  }
