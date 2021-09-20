@@ -259,7 +259,6 @@ li {
 
 @media only screen and (max-device-width: 400px) {
     html {
-        box-sizing: border-box;
     }
     
     body {
@@ -267,7 +266,6 @@ li {
         width: 100vw;
         min-height: 100vh;
         background-attachment: scroll;
-        box-sizing: border-box;
     }
 
     header {
@@ -285,7 +283,6 @@ li {
     #content {
         width: 100vw;
         min-width: 0vw;
-        box-sizing: border-box;
     }
 
     .rounded-circle {
