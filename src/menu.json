@@ -16,6 +16,7 @@
         {"category":"Pastries", "name":"Glazed Donut", "price":"500δ"},
         {"category":"Pastries", "name":"Anima Cake", "price":"750δ"},
         {"category":"Snacks", "name":"Candy Pop", "price":"100δ"},
-        {"category":"Snacks", "name":"Chocolate Bar", "price":"150δ"}
+        {"category":"Snacks", "name":"Chocolate Bar", "price":"150δ"},
+        {"category":"Toppings", "name":"Soulium Powder", "price":"20δ"}
     ]
 }
