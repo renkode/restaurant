@@ -257,7 +257,7 @@ li {
     
 }
 
-@media only screen and (max-device-width: 750px) {
+@media only screen and (max-device-width: 400px) {
     
     body {
         font-size: 1rem;
