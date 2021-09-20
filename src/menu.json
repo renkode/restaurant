@@ -1,0 +1,20 @@
+{
+    "items":[
+        {"category":"Coffee", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Coffee", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Coffee", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Coffee", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Teas", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Teas", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Wine", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Wine", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Cocktails", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Cocktails", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Sandwiches", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Sandwiches", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Pastries", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Pastries", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Snacks", "name":"Lorem Ipsum", "price":"nδ"},
+        {"category":"Snacks", "name":"Lorem Ipsum", "price":"nδ"}
+    ]
+}

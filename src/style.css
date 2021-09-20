@@ -196,7 +196,9 @@ h2 {
     font-size: 30px;
     text-shadow: 0px 0px 4px #cc8b42, 0px 0px 8px black, 0px 0px 8px black;
     margin: 0px;
-    text-align:center
+    text-align:center;
+    text-transform: capitalize;
+    
 }
 
 h3 {
