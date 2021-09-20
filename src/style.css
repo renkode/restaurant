@@ -257,7 +257,7 @@ li {
     
 }
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 600px) {
     html {
     }
     
@@ -269,6 +269,7 @@ li {
     }
 
     header {
+        width: 100vw;
         height: 25vh;
     }
 
@@ -295,7 +296,7 @@ li {
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 350%;
         margin-top: 5vh;
         margin-bottom: 5vh;
     }
