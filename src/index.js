@@ -1,5 +1,6 @@
 //import css from "./style.css";
 const menuData = require('./menu.json');
+import './style.css';
 
 let content = document.getElementById("content");
 let container = document.createElement("div");
