@@ -229,10 +229,13 @@ p {
 }
 
 ul {
+    display: flex;
+    width: 100%;
     list-style-type: none;
-    width: 70%;
     margin: auto;
+    padding-left:0;
     margin-top: 16px;
+    align-items: center;
 }
 
 li {
