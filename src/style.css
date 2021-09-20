@@ -135,6 +135,7 @@ nav {
     padding: 3%;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
     border: 1px solid #dca564;
+    padding: 30px 20px;
 }
 
 footer {
@@ -167,8 +168,17 @@ footer {
     font-style: italic;
 }
 
+.menu-item {
+    width: 100%;
+    display: flex;
+    font-style: italic;
+}
+
 span.dotted {
-    border-top: 1px dotted rgba(143, 145, 115, 0.541);
+    margin: 0px 4px;
+    flex: 1;
+    height: 1rem;
+    border-bottom: 1px dotted rgb(143, 145, 115);
 }
 
 span.divider {
@@ -185,7 +195,47 @@ h2 {
     color: #ffe48a;
     font-size: 30px;
     text-shadow: 0px 0px 4px #cc8b42, 0px 0px 8px black, 0px 0px 8px black;
-    margin: 12px;
-    margin-bottom: 0px;
+    margin: 0px;
     text-align:center
+}
+
+h3 {
+    font-family: Carattere,cursive;
+    color: #ffe48a;
+    font-size: 24px;
+    text-shadow: 0px 0px 4px #cc8b42, 0px 0px 8px black, 0px 0px 8px black;
+    margin: 0;
+    margin-top: 16px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+#menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 12px;
+}
+
+#contact-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.fas {
+    color:#9ee73d;
+    margin-right: 8px;
+}
+
+ul {
+    list-style-type: none;
+    width: 70%;
+    margin: auto;
+    margin-top: 16px;
+}
+
+li {
+    margin: 6px;
+    
 }
