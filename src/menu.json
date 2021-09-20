@@ -1,20 +1,21 @@
 {
     "items":[
-        {"category":"Coffee", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Coffee", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Coffee", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Coffee", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Teas", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Teas", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Wine", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Wine", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Cocktails", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Cocktails", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Sandwiches", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Sandwiches", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Pastries", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Pastries", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Snacks", "name":"Lorem Ipsum", "price":"nδ"},
-        {"category":"Snacks", "name":"Lorem Ipsum", "price":"nδ"}
+        {"category":"Coffee", "name":"Cold Brew", "price":"300δ"},
+        {"category":"Coffee", "name":"Iced Latte", "price":"350δ"},
+        {"category":"Coffee", "name":"Espresso", "price":"400δ"},
+        {"category":"Coffee", "name":"Cappuccino", "price":"420δ"},
+        {"category":"Teas", "name":"Green Tea", "price":"150δ"},
+        {"category":"Teas", "name":"Black Tea", "price":"250δ"},
+        {"category":"Wine", "name":"Red Wine", "price":"400δ"},
+        {"category":"Wine", "name":"Sparkling Wine", "price":"550δ"},
+        {"category":"Cocktails", "name":"Margarita", "price":"400δ"},
+        {"category":"Cocktails", "name":"Martini", "price":"500δ"},
+        {"category":"Cocktails", "name":"The Viper", "price":"800δ"},
+        {"category":"Sandwiches", "name":"Ham & Cheese", "price":"1000δ"},
+        {"category":"Sandwiches", "name":"BLT", "price":"1200δ"},
+        {"category":"Pastries", "name":"Glazed Donut", "price":"500δ"},
+        {"category":"Pastries", "name":"Anima Cake", "price":"750δ"},
+        {"category":"Snacks", "name":"Candy Pop", "price":"100δ"},
+        {"category":"Snacks", "name":"Chocolate Bar", "price":"150δ"}
     ]
 }

@@ -2,6 +2,9 @@
 const menuData = require('./menu.json');
 
 let content = document.getElementById("content");
+let container = document.createElement("div");
+container.id = "content-container";
+let currentTab = "home";
 
 function createHeader() {
     let header = document.createElement("header");
@@ -23,12 +26,21 @@ function createHeader() {
     homeBtn.id = "home-btn"; 
     homeBtn.className = "nav-btn";
     homeBtn.innerHTML = "Home";
+    homeBtn.addEventListener("click", () => {
+        changeTabs("home");
+    })
     menuBtn.id = "menu-btn"; 
     menuBtn.className = "nav-btn";
     menuBtn.innerHTML = "Menu";
+    menuBtn.addEventListener("click", () => {
+        changeTabs("menu");
+    })
     contactBtn.id = "contact-btn"; 
     contactBtn.className = "nav-btn";
     contactBtn.innerHTML = "Contact";
+    contactBtn.addEventListener("click", () => {
+        changeTabs("contact");
+    })
     
     nav.append(homeBtn, menuBtn, contactBtn);
     headerImg.append(title,sawtooth, nav);
@@ -154,14 +166,18 @@ function createFooter() {
 }
 
 function createContent() {
-    let container = document.createElement("div");
-    container.id = "content-container";
-    content.appendChild(createHeader());
     container.appendChild(createHome());
-    container.appendChild(createMenu());
-    container.appendChild(createContact());
-    content.appendChild(container);
-    content.appendChild(createFooter());
+    content.append(createHeader(), container, createFooter());
+}
+
+function changeTabs(tab) {
+    if (currentTab === tab) return;
+    container.removeChild(container.firstChild);
+    
+    if (tab === "home") container.appendChild(createHome());
+    if (tab === "menu") container.appendChild(createMenu());
+    if (tab === "contact") container.appendChild(createContact());
+    currentTab = tab;
 }
 
 createContent();
