@@ -1,3 +1,5 @@
+const menuData = require('./menu.json');
+
 export default function createMenu() {
     let menu = document.createElement("div");
     menu.id = "menu";

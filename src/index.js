@@ -1,5 +1,5 @@
 //import css from "./style.css";
-const menuData = require('./menu.json');
+
 import './style.css';
 import createHome from './home.js';
 import createMenu from './menu.js';
